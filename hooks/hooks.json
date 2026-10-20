@@ -1,0 +1,16 @@
+{
+  "description": "BCI security hooks — passive guardrail enforcement for neural data handling",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/neural-data-guard.py"
+          }
+        ],
+        "matcher": "Write|Edit"
+      }
+    ]
+  }
+}

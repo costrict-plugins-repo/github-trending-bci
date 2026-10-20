@@ -1,0 +1,10 @@
+{
+  "name": "bci-security",
+  "description": "BCI security toolkit with Security Hardrails (guardrails + hardening). Threat modeling, vulnerability scoring, PII detection, regulatory compliance reporting, pattern detection, and neuroethics compliance for brain-computer interfaces.",
+  "version": "1.1.0",
+  "author": {
+    "name": "QInnovate"
+  },
+  "homepage": "https://github.com/qinnovates/bci-security",
+  "license": "Apache-2.0 (code), CC-BY-4.0 (data)"
+}

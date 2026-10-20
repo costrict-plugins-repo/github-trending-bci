@@ -1,0 +1,21 @@
+{
+  "_disclaimer": "SAMPLE DATA ONLY — does not represent any specific device's actual configuration or security posture. For demonstration purposes only.",
+  "device_name": "OpenBCI Cyton 8-Channel EEG",
+  "device_class": "consumer-eeg",
+  "channels": 8,
+  "sample_rate": 250,
+  "signal_type": "EEG",
+  "connectivity": ["rfduino-2.4ghz", "usb-serial"],
+  "transport_protocol": "LSL",
+  "transport_encryption": false,
+  "firmware": "open-source",
+  "secure_boot": false,
+  "data_storage": {
+    "formats": ["csv", "edf", "xdf"],
+    "encryption_at_rest": false,
+    "anonymization": "none"
+  },
+  "cloud_api": false,
+  "deployment": "research",
+  "_note": "OpenBCI Cyton uses RFDuino 2.4 GHz radio (not Bluetooth Classic) with USB dongle receiver"
+}
